@@ -63,7 +63,6 @@
 	dunst            # Notifications
 	libnotify        # Dependency for Dunst
 	vim              # Text Editor
-	neovim
 	rofi             # Menu
 	rofi-power-menu  # Power Menu
 	udiskie          # Auto Mounting
