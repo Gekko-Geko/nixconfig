@@ -17,10 +17,10 @@
       source = ../../files/dotfiles;
       recursive = true;
     };
-    file."${config.xdg.configHome}" = {
-      source = ../../files/nvim;
-      recursive = true;
-    };
+    # file."${config.xdg.configHome}" = {
+    #   source = ../../files/nvim;
+    #   recursive = true;
+    # };
     sessionVariables = {
       ZDOTDIR = "$HOME/.config/zsh";
       BROWSER = "firefox";
