@@ -48,7 +48,7 @@
 	libnotify
 	lsd
 	maim
-	make
+	gnumake
 	man-db
 	man-pages
 	mpv
