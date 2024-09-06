@@ -27,7 +27,7 @@
   users.users.${user} = {
     isNormalUser = true;
     description = "Geko";
-    extraGroups = [ "wheel" "video" "audio" "networkmanager" "scanner" "kvm" "libvirtd" ];
+    extraGroups = [ "wheel" "video" "audio" "networkmanager" "scanner" "kvm" "libvirtd" "docker" ];
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;
   };
