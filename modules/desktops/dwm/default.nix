@@ -1,6 +1,7 @@
 { lib, ... }:
 
 {
+  pkgs = import <nixpkgs> {};
   services = {
   	xserver.enable = true;
   	xserver.displayManager.lightdm.enable = true;
