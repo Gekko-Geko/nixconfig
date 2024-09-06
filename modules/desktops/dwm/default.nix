@@ -1,7 +1,16 @@
-{ lib, pkgs, ... }:
+{ lib, nixpkgs, ... }:
 
+let
+  system = "x86_64-linux";
+
+  pkgs = import nixpkgs {
+    inherit system;
+    config.allowUnfree = true;
+  };
+
+  lib = nixpkgs.lib;
+in
 {
-  pkgs = import <nixpkgs> {};
   services = {
   	xserver.enable = true;
   	xserver.displayManager.lightdm.enable = true;

@@ -24,7 +24,7 @@
 	btop              # Resource Manager
 	neofetch          # Minimal fetch
 	lf                # File Manager
-	stpv
+	ctpv
 	ripgrep           # Ripgrep
 	python3
 	st
