@@ -19,7 +19,7 @@
   	  package = pkgs.dwm.overrideAttrs rec {
   	    pname = "dwm";
   	    version = "6.5";
-  	    src = pkgs.fetchFromGithub {
+  	    src = pkgs.fetchFromGitHub {
   	    	owner = "Gekko-Geko";
   	    	repo = "dwm";
   	    	rev = "760824bedef2237f8eb45fcf554a3da4375b5c7e";
