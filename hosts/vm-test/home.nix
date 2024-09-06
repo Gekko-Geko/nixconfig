@@ -1,8 +1,8 @@
 { config, lib, pkgs, user, ... }:
 
 { 
-  # imports =
-  #   [(import ../../modules/programs/zsh.nix)];
+  imports =
+    [(import ../../modules/programs/zsh.nix)];
 
   programs = {
     home-manager.enable = true;
@@ -35,7 +35,8 @@
 	sxiv               # Image Viewer
 	mpv                # Media Player
 	pavucontrol        # Audio Control
-	zsh
+	## fzf
+	## zsh
 	
 	# Apps
 	firefox           # Browser
