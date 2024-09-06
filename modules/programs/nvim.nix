@@ -2,9 +2,9 @@
 
 {
   programs = {
-  	lua = { 
-	  enable = true; 
-	};
+  	# lua = { 
+	#   enable = true; 
+	# };
         neovim = {
           enable = true;
           package = pkgs.neovim.overrideAttrs rec {
