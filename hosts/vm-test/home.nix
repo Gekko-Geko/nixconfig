@@ -35,7 +35,6 @@
 	cups
 	discord
 	dnscrypt-proxy
-	docker
 	docker-compose
 	dos2unix
 	dunst
