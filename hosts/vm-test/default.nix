@@ -26,7 +26,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.${user} = {
     isNormalUser = true;
-    description = "main";
+    description = "Geko";
     extraGroups = [ "wheel" "video" "audio" "networkmanager" "scanner" "kvm" "libvirtd" ];
     shell = pkgs.zsh;
     ignoreShellProgramCheck = true;

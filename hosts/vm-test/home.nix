@@ -2,7 +2,9 @@
 
 { 
   imports =
-    [(import ../../modules/programs/zsh.nix)];
+    [(import ../../modules/programs/zsh.nix)] ++
+    [(import ../../modules/programs/git.nix)] ++
+    [(import ../../modules/programs/nvim.nix)];
 
   programs = {
     home-manager.enable = true;
