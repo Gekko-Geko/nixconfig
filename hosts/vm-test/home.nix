@@ -18,6 +18,8 @@
     };
     sessionVariables = {
       ZDOTDIR = "$HOME/.config/zsh";
+      BROWSER = "firefox";
+      EDITOR = "nvim";
     };
     packages = with pkgs; [
 	# Terminal
