@@ -31,7 +31,6 @@
 	bat
 	blueman
 	bluez-tools
-	bluez-utils
 	btop
 	cups
 	discord
