@@ -1,4 +1,4 @@
-{ pkgs, lib, user, nixpkgs, ... }:
+{ pkgs, lib, user, ... }:
 
 {
   # Import hardware settings
