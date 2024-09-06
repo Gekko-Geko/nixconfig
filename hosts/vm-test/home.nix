@@ -3,8 +3,8 @@
 { 
   imports =
     [(import ../../modules/programs/zsh.nix)] ++
-    [(import ../../modules/programs/git.nix)] ++
-    [(import ../../modules/programs/nvim.nix)];
+    [(import ../../modules/programs/git.nix)];
+    # [(import ../../modules/programs/nvim.nix)];
 
   programs = {
     home-manager.enable = true;
@@ -63,6 +63,7 @@
 	dunst            # Notifications
 	libnotify        # Dependency for Dunst
 	vim              # Text Editor
+	neovim
 	rofi             # Menu
 	rofi-power-menu  # Power Menu
 	udiskie          # Auto Mounting
