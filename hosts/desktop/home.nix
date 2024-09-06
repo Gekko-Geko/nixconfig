@@ -1,8 +1,8 @@
 { config, lib, pkgs, user, ... }:
 
 { 
-  # imports =
-  #   [(import ../../modules/programs/zsh.nix)];
+  imports =
+    [(import ../../modules/programs/zsh.nix)];
 
   programs = {
     home-manager.enable = true;
@@ -19,6 +19,8 @@
     sessionVariables = {
       ZDOTDIR = "$HOME/.config/zsh";
     };
+      # EDITOR = "nvim";
+      # BROWSER="firefox";
     packages = with pkgs; [
 	# Terminal
 	btop              # Resource Manager
@@ -26,13 +28,14 @@
 	lf                # File Manager
 	ripgrep           # Ripgrep
 	python3
+	neovim
 	st
 	tmux
+	
 	# Video/Audio
 	sxiv               # Image Viewer
 	mpv                # Media Player
 	pavucontrol        # Audio Control
-	zsh
 	
 	# Apps
 	firefox           # Browser
@@ -54,16 +57,25 @@
 	pipewire         # Sound
 	usbutils         # USB Utility Info
 	wget             # Downloader
+	# zsh              # Shell
+	
+	# General home-manager
 	dunst            # Notifications
 	libnotify        # Dependency for Dunst
 	vim              # Text Editor
-	neovim
 	rofi             # Menu
 	rofi-power-menu  # Power Menu
 	udiskie          # Auto Mounting
+	
+	# Xorg configuration
 	xclip            # Console Clipboard
 	xorg.xkill       # Kill Applications
 	xorg.xrandr      # Screen Settings
+	xterm            # Terminal
+	
+	# Desktop
+	blueman          # Bluetooth
+	deluge           # Torrents
 	discord          # Chat
 	ffmpeg           # Video Support (dslr)
 	steam            # Games
