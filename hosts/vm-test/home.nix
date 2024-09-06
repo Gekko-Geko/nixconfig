@@ -45,7 +45,6 @@
 	brave             # Browser
 	thunderbird       # Mail client
 	remmina           # XRDP & VNC Client
-	lua
 	
 	# File Management
 	file-roller 	  # Archive Manager
