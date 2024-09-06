@@ -18,13 +18,18 @@
   	  enable = true;
   	  package = pkgs.dwm.overrideAttrs rec {
   	    pname = "dwm";
-  	    version = "6.5";
-  	    src = pkgs.fetchFromGitHub {
-  	    	owner = "Gekko-Geko";
-  	    	repo = "dwm";
-  	    	rev = "760824bedef2237f8eb45fcf554a3da4375b5c7e";
-  	    	hash = "sha256-4tiul2Ou8EzW3D9pKVEy1xuEPc2GoP2Vno5r+9hGzqI=";
-  	    };
+	    src = pkgs.fetchFromGitHub {
+              owner = "saloniamatteo";
+              repo = "dwm";
+              rev = "bb9b61617f40c46c441953758cf99e770ad02c55";
+              hash = "sha256-4Yc2XHND3uiClaC9SgoukbWEV/Y2/XzSABXtuylacV0=";
+            };
+  	    # src = pkgs.fetchFromGitHub {
+  	    # 	owner = "Gekko-Geko";
+  	    # 	repo = "dwm";
+  	    # 	rev = "760824bedef2237f8eb45fcf554a3da4375b5c7e";
+  	    # 	hash = "sha256-4tiul2Ou8EzW3D9pKVEy1xuEPc2GoP2Vno5r+9hGzqI=";
+  	    # };
   	  };
   	};
   };
