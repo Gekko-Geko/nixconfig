@@ -3,7 +3,7 @@
 {
   programs = {
   	lua = { 
-	  enalbe = true; 
+	  enable = true; 
 	};
         neovim = {
           enable = true;
