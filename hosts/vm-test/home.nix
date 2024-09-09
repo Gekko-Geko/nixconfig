@@ -70,6 +70,7 @@
 	wget
 	zip
 	noto-fonts-color-emoji
+	font-awesome
     ];
   };
 }
