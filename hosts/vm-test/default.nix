@@ -55,8 +55,7 @@
   };
   stylix.fonts = {
     monospace = {
-      # package = pkgs.nerdfonts.override {fonts = ["JetBrainsMono"];};
-      package = [ pkgs.hack-font, pkgs.noto-fonts-color-emoji ];
+      package = pkgs.nerdfonts.override {fonts = ["JetBrainsMono"];};
       name = "JetBrainsMono Nerd Font Mono";
     };
     sansSerif = {

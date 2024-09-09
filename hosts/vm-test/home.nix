@@ -69,6 +69,7 @@
 	vim
 	wget
 	zip
+	noto-fonts-color-emoji
     ];
   };
 }
