@@ -34,6 +34,7 @@
 	btop
 	cups
 	discord
+	dmenu
 	dnscrypt-proxy
 	docker-compose
 	dos2unix
@@ -42,12 +43,12 @@
 	firefox
 	fzf
 	github-cli
+	gnumake
 	lazygit
 	lf
 	libnotify
 	lsd
 	maim
-	gnumake
 	man-db
 	man-pages
 	mpv
@@ -59,6 +60,7 @@
 	ripgrep
 	rsync
 	runelite
+	st
 	sxiv
 	syncthing
 	tmux
