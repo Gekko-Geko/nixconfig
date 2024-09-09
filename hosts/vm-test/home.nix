@@ -41,6 +41,7 @@
 	dunst
 	ffmpeg
 	firefox
+	font-awesome
 	fzf
 	github-cli
 	gnumake
@@ -69,8 +70,6 @@
 	vim
 	wget
 	zip
-	noto-fonts-color-emoji
-	font-awesome
     ];
   };
 }
