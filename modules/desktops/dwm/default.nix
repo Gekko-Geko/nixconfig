@@ -27,7 +27,7 @@
   	    src = pkgs.fetchFromGitHub {
   	    	owner = "Gekko-Geko";
   	    	repo = "dwm";
-  	    	rev = "760824bedef2237f8eb45fcf554a3da4375b5c7e";
+  	    	rev = "2bf4f8a985b6b8cdaa549746b694dada53aa722e";
   	    	hash = "sha256-4tiul2Ou8EzW3D9pKVEy1xuEPc2GoP2Vno5r+9hGzqI=";
   	    };
   	  };
