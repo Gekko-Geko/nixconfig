@@ -4,7 +4,7 @@
   # Import hardware settings
   imports =
     [(import ./hardware-configuration.nix)] ++
-    [(import ../../modules/desktops/xfce/default.nix)];
+    [(import ../../modules/desktops/dwm/default.nix)];
 
   # Networking settings
   # Configure network proxy if necessary
